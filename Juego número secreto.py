@@ -23,6 +23,7 @@ def jugar_adivinanza(): #función para jugar al juego de adivinanza
     while intentos < max_intentos: #bucle hasta que se alcance el máximo de intentos
         intentos += 1 #incrementar el contador de intentos
         #print(f"\nIntento {intentos} de {max_intentos}") #mostrar el número de intento actual
+        print()
         mostrar_caja_intento(intentos, max_intentos) #mostrar el número de intento actual en una caja
 
         try:
